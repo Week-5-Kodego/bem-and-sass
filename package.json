@@ -1,0 +1,17 @@
+{
+  "name": "bem-sass",
+  "version": "1.0.0",
+  "description": "BEM-SASS Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bem",
+    "sass",
+    "exercise",
+    "kodego"
+  ],
+  "author": "Christian Benedict A. Ramirez",
+  "license": "ISC"
+}
