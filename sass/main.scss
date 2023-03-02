@@ -96,20 +96,20 @@ select {
 }
 
 .light {
-  background-color: #fff9f9;
+  background-color: var($color-primary-light);
   margin: 2em;
   max-width: 300px;
   padding: 2em;
-  color: #000;
+  color: var($color-primary-dark);
   box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
   border-radius: 0.225rem;
 }
 .dark {
-  background-color: #1c1c1c;
+  background-color: var($color-primary-dark);
   margin: 2em;
   max-width: 300px;
   padding: 2em;
-  color: #fff;
+  color: var($color-primary-light);
   box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
   border-radius: 0.225rem;
 }
