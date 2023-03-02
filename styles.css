@@ -128,10 +128,11 @@ select {
 
 .card--light {
   background-color: lightpink;
-  color: #1c1c1c;
+  color: darkmagenta;
 }
 .card--dark {
   background-color: darkmagenta;
+  color: lightpink;
 }
 
 .card h2 {
