@@ -84,7 +84,7 @@ select {
 .card-container, .container {
   display: flex;
   justify-content: space-evenly;
-  background-color: var($bg-color);
+  background-color: $bg-color;
   height: 100%;
 }
 
@@ -96,20 +96,20 @@ select {
 }
 
 .light {
-  background-color: var($color-primary-light);
+  background-color: $color-primary-light;
   margin: 2em;
   max-width: 300px;
   padding: 2em;
-  color: var($color-primary-dark);
+  color: $color-primary-dark;
   box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
   border-radius: 0.225rem;
 }
 .dark {
-  background-color: var($color-primary-dark);
+  background-color: $color-primary-dark;
   margin: 2em;
   max-width: 300px;
   padding: 2em;
-  color: var($color-primary-light);
+  color: $color-primary-light;
   box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
   border-radius: 0.225rem;
 }
