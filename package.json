@@ -14,7 +14,7 @@
   ],
   "author": "Christian Benedict A. Ramirez",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.58.3"
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
 }
