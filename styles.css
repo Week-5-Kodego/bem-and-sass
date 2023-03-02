@@ -46,7 +46,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture, 
+svg {
   max-width: 100%;
   display: block;
 }
@@ -111,10 +112,11 @@ select {
 
 .card-h2 {
     text-transform: uppercase;
-  }
 }
+
 /* NO BEM END */
 
+/* BEM START */
 .card {
   margin: 2em;
   max-width: 300px;
@@ -135,6 +137,8 @@ select {
 .card h2 {
   text-transform: uppercase;
 }
+
+/* BEM END */
 
 /* BUTTON */
 .header-container{
@@ -159,5 +163,10 @@ a {
   background-color: lightseagreen;
 }
 .button:hover {
+  background-color: rgb(59, 204, 197);
   transform: scale(1.2);
 }
+
+/* BUTTON END */
+
+

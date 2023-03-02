@@ -13,5 +13,8 @@
     "kodego"
   ],
   "author": "Christian Benedict A. Ramirez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
 }
